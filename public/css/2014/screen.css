@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', 'Gravur', 'Monaco', 'Avenir Next';
+}
+header {
+	width: 960px;
+	margin: 0 auto;
+	height: 80px;
+}
+header h1 {
+	position: fixed;
+	padding: 5px 10px;
+	border: 4px solid #000;
+	background-color: RGB(255,255,255);
+	font-size: 24px;
+	float: right;
+	color: #000;
+	font-family: 'Lato', 'Gravur', 'Monaco', 'Avenir Next';
+	font-weight: 800;
+	letter-spacing: 4px;
+	margin-top: 20px;
+	z-index: 99;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.row {
+	float: left;
+	width: 100%;
+	border-bottom: 4px solid #000;
+	padding: 20px 0;
+}
+
+span.date {
+	display: none;
+}
+
+.entry {
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid #000;
+	padding: 10px 0 10px;
+	font-size: 16px;
+}
+
+.entry:first-child {
+	padding: 0 0 10px;
+}
+
+.entry:last-child {
+	border-bottom: none;
+	padding: 10px 0 0;
+}
+
+.entry:first-child:last-child {
+	padding: 0;
+}
+
+p.word {
+	font-family: 'Merriweather', 'Monaco', 'Avenir Next';
+	font-size: 14px;
+	position: relative;
+	color: #000;
+}
+
+.quote .word span {
+	font-size: 24px;
+	padding: 5px 10px;
+}
+
+.quote p.source {
+	font-size: 12px;
+	margin: 5px 0;
+}
+
+p.w-tweet {
+	font-family: 'Merriweather', 'Monaco', 'Avenir Next';
+	font-size: 16px;
+	padding: 10px 20px;
+	position: relative;
+	top: 5px;
+	color: #FFF;
+	background-color: #39CCCC;
+}
+
+p.w-buzz span {
+	font-family: 'Merriweather', 'Monaco', 'Avenir Next';
+	font-size: 36px;
+	padding: 5px 10px;
+	position: relative;
+	margin-top: 10px;
+	color: #FFF;
+	background-color: #F012BE;
+	display: block;
+	float: left;
+}
+
+
+p.w-statement span {
+	font-family: 'Merriweather', 'Monaco', 'Avenir Next';
+	font-size: 24px;
+	padding: 5px 10px;
+	margin-top: 10px;
+	color: #FFF;
+	background-color: RGBA(46, 204, 64, 0.95);
+	display: block;
+	float: left;
+}
+
+.entry h1 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* Prettier Links */
+
+a {
+	font-weight: 300;
+}
+
+a strong {
+	font-weight: 900;
+}
+
+a:link {
+  color: #0074d9;
+  color: #000;
+}
+
+a:visited {
+  color: #b10dc9;
+  color: #222;
+}
+
+a:hover {
+  color: #7fdbff;
+}
+
+a:link:hover {
+  color: #7fdbff;
+}
+
+a:visited:hover {
+	color: #b10dc9;
+}
+
+a:active {
+  color: #ff851b;
+}
+
+ img {
+ 	max-width: 288px;
+ 	max-height: 288px;
+ }
